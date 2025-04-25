@@ -3,16 +3,66 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Training ground</title>
+    <title>Sign-up form</title>
     <link href="stylesheet.css" rel="stylesheet" type="text/css">
     <script src="javascript.js" defer></script>
   </head>
   <body>
-    <form>
-      <input type="checkbox" value="checked" name="test-checkbox" id="myCheckbox">
-      </form>
-      
+   
+  <div class="imageContainer">
+        <div class="card">
+       <img class="logo" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png" alt="odin logo">
+       odin
+       </div>
+   </div>
+
+   <div class="rightSectionContainer">
+    <div class="section1">
+      <div class="section1Text">
+        This is not a real online service ! You know you need something like this in your life to help you realize your deepest dreams.
+    </div>
+    <div>Sign up <em>now</em> !</div>
+    <p>You <em>know</em> you want to.</p>
+   </div>
     
+      
+   <form>
+    
+    <h1 id="h1Text">Let's Do This !</h1>
+    <div class="inputsContainer">
+    <div>
+      <label for="first-name">First name</label>
+    <input type="text" name="first-name" id="first-name">
+    </div>
+    <div>
+      <label for="last-name">last name</label>
+      <input type="text" name="last-name" id="last-name">
+    </div>
+    <div>
+      <label for="email">email</label>
+      <input type="email" name="emai" id="email">
+    </div>
+    <div>
+      <label for="phone">phone</label>
+      <input type="phone" name="phone" id="phone">
+    </div>
+    <div>
+      <label for="password">password</label>
+      <input type="password" name="password" id="password" required>
+    </div>
+    <div>
+      <label for="confirm-password">confirm password</label>
+      <input type="password" name="confirm-password" id="confirm-password" required>
+    </div>
+    
+    </div>
+    
+   
+   </form>
+   <div class="section3">
+   <button>Create Account</button>
+   <span>Already have an account ? <a>Log in</a></span>
+   </div>
   </body>
   
 </html>
